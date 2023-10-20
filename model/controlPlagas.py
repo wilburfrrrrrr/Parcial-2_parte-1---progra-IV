@@ -6,3 +6,4 @@ class ControlPlagas(ProductoControl):
             raise ValueError("El periodo de carencia no puede ser negativo.")
         super().__init__(ica, nombre, frecuencia_aplicacion, valor)
         self.periodo_carencia = periodo_carencia
+        

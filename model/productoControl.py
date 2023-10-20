@@ -6,3 +6,5 @@ class ProductoControl:
         self.nombre = nombre
         self.frecuencia_aplicacion = frecuencia_aplicacion
         self.valor = valor
+
+        
